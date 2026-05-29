@@ -1,0 +1,12 @@
+idf_component_register(
+    SRCS 
+        "debug_tool.c"
+    INCLUDE_DIRS 
+        "."             
+    REQUIRES 
+        iic           
+        pca9685       
+        driver  
+        nvs_flash 
+        kinematics
+)

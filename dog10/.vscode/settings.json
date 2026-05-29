@@ -1,0 +1,33 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.espIdfPathWin": "D:/EspressifIDE/Espressif/frameworks/esp-idf-v5.1.2/",
+  "idf.pythonInstallPath": "D:\\EspressifIDE\\Espressif\\tools\\idf-python\\3.11.2\\python.exe",
+  "idf.openOcdConfigs": [
+    "board/esp32-wrover-kit-3.3v.cfg"
+  ],
+  "idf.portWin": "COM18",
+  "idf.toolsPathWin": "D:\\EspressifIDE\\Espressif",
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32"
+  },
+  "idf.flashType": "UART",
+  "C_Cpp.dimInactiveRegions": false,
+  "MicroPython.executeButton": [
+    {
+      "text": "▶",
+      "tooltip": "运行",
+      "alignment": "left",
+      "command": "extension.executeFile",
+      "priority": 3.5
+    }
+  ],
+  "MicroPython.syncButton": [
+    {
+      "text": "$(sync)",
+      "tooltip": "同步",
+      "alignment": "left",
+      "command": "extension.execute",
+      "priority": 4
+    }
+  ]
+}
